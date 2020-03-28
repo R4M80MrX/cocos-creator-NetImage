@@ -8,7 +8,7 @@ cocos creator 网络图片渲染组件, 用法贴近 DOM Image
 import NetImage from "../NetImage";
 
 // ...
-const image = new NetImage(`${coords}`);
+const image = new NetImage(`node name`);
 
 image.onload = () => {
   this._imageOnLoad(done, image);
